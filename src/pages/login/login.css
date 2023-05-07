@@ -1,0 +1,10 @@
+.box-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.login-avatar {
+  margin: 15px 0;
+  background: #1976d2 !important;
+}
