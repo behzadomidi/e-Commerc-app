@@ -48,12 +48,10 @@ const OrderId = () => {
     </div>
   );
 
-  const renderLoading = () => <Loading />;
-
   return (
     <Container className="login" component="main" maxWidth="md">
       {isLoading ? (
-        renderLoading()
+        <Loading />
       ) : error ? (
         renderError()
       ) : (

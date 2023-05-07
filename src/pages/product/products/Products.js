@@ -49,8 +49,6 @@ const Products = () => {
     </div>
   );
 
-  const renderLoading = () => <Loading />;
-
   return (
     <>
       <div className="main-product">
@@ -71,7 +69,7 @@ const Products = () => {
       </div>
       <div className="container">
         {isLoading ? (
-          renderLoading()
+          <Loading />
         ) : error ? (
           renderError()
         ) : (

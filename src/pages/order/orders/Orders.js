@@ -38,8 +38,6 @@ const Orders = () => {
     </div>
   );
 
-  const renderLoading = () => <Loading />;
-
   return (
     <div className="mt-4 container">
       <Flash>
@@ -47,7 +45,7 @@ const Orders = () => {
       </Flash>
       <hr />
       {isLoading ? (
-        renderLoading()
+        <Loading />
       ) : error ? (
         renderError()
       ) : (
