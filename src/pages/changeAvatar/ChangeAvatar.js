@@ -63,7 +63,7 @@ const ChangeAvatar = () => {
       )}
       <CssBaseline />
       <Box className="box-avatar">
-        <Avatar sx={{ m: 3, bgcolor: "#1976d2" }}>
+        <Avatar className="avatar-avatar">
           <AccountCircleIcon />
         </Avatar>
         <Typography component="h1" variant="h5">

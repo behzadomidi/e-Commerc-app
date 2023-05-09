@@ -12,3 +12,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.avatar-avatar {
+  margin: 15px;
+  background-color: #1976d2 !important;
+}
